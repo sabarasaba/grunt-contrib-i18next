@@ -1,12 +1,16 @@
 {
   "name": "grunt-i18next",
   "description": "Bundle language resource files for i18next.",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "homepage": "https://github.com/i18next/grunt-i18next",
   "author": {
     "name": "Ignacio Rivas",
     "url": "http://github.com/sabarasaba"
   },
+  "contributors": [{
+    "name": "Martijn van de Rijdt",
+    "email": "martijn@enketo.org"
+  }],
   "repository": {
     "type": "git",
     "url": "git://github.com/i18next/grunt-i18next.git"
@@ -19,7 +23,7 @@
     "url": "https://github.com/i18next/grunt-i18next/blob/master/LICENSE-MIT"
   }],
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "scripts": {
     "test": "grunt test"
